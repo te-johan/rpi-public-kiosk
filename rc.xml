@@ -507,13 +507,13 @@
         <action name="Focus"/>
         <action name="Raise"/>
       </mousebind>
-      <mousebind button="C-Left" action="Press">
+      <mousebind button="C-Left" action="Click">
 	<action name="Execute"><command>false</command></action>
       </mousebind>
-      <mousebind button="C-S-Left" action="Press">
+      <mousebind button="C-S-Left" action="Click">
 	<action name="Execute"><command>false</command></action>
       </mousebind>
-      <mousebind button="S-Left" action="Press">
+      <mousebind button="S-Left" action="Click">
 	<action name="Execute"><command>false</command></action>
       </mousebind>
     </context>
