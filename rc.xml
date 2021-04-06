@@ -401,6 +401,15 @@
           <to>next</to>
         </action>
       </mousebind>
+      <mousebind button="C-Left" action="Click">
+	<action name="Execute"><command>false</command></action>
+      </mousebind>
+      <mousebind button="C-S-Left" action="Click">
+	<action name="Execute"><command>false</command></action>
+      </mousebind>
+      <mousebind button="S-Left" action="Click">
+	<action name="Execute"><command>false</command></action>
+      </mousebind>
     </context>
     <context name="Titlebar">
       <mousebind button="Left" action="Drag">
@@ -506,15 +515,6 @@
       <mousebind button="Right" action="Press">
         <action name="Focus"/>
         <action name="Raise"/>
-      </mousebind>
-      <mousebind button="C-Left" action="Click">
-	<action name="Execute"><command>false</command></action>
-      </mousebind>
-      <mousebind button="C-S-Left" action="Click">
-	<action name="Execute"><command>false</command></action>
-      </mousebind>
-      <mousebind button="S-Left" action="Click">
-	<action name="Execute"><command>false</command></action>
       </mousebind>
     </context>
     <context name="Icon">
