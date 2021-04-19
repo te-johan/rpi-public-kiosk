@@ -1,2 +1,3 @@
 sleep 5
-chromium-browser --noerrdialogs --disable-infobars --kiosk https://bildarkiv.vallentuna.se
+xset s 120 120
+python3 ~/rpi-public-kiosk/startup.py
