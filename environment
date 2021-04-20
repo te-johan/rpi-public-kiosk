@@ -1,1 +1,2 @@
-EXPORT START_PROCESS="chromium-browser --noerrdialogs --disable-infobars --kiosk https://bildarkiv.vallentuna.se"
+export START_PROCESS="chromium-browser --noerrdialogs --disable-infobars --kiosk https://bildarkiv.vallentuna.se"
+

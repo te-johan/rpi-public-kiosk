@@ -1,3 +1,4 @@
+
 sleep 5
-xset s 120 120
+xscreensaver -no-splash &
 python3 ~/rpi-public-kiosk/startup.py
