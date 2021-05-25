@@ -1,4 +1,15 @@
 
 sleep 5
+xmodmap -e 'keycode 166='
+xmodmap -e 'keycode 167='
+xmodmap -e 'keycode 180='
+xmodmap -e 'keycode 181='
+xmodmap -e 'keycode 163='
+xmodmap -e 'keycode 164='
+xmodmap -e 'keycode 165='
+xmodmap -e 'keycode 136='
+xmodmap -e 'keycode 148='
+xmodmap -e 'keycode 225='
+xmodmap -e 'keycode 234='
 xscreensaver -no-splash &
 python3 ~/rpi-public-kiosk/startup.py
