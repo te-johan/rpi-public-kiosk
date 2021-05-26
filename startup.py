@@ -15,7 +15,7 @@ while True:
   output = saver.stdout.readline()
   if saver.poll() is not None:
     break
-  if output and "RUN" in output.decode():
+  if output and "UNBLANK" not in output.decode() and "BLANK" in output.decode():
     print("screensaver activated")
     process.terminate()
     process = start_process()

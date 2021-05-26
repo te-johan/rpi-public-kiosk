@@ -217,9 +217,9 @@
       <action name="Execute"><command>false</command></action>
     </keybind>
     <!-- Keybindings for windows -->
-    <!-- <keybind key="A-F4">
+    <keybind key="A-F4">
       <action name="Execute"><command>false</command></action>
-    </keybind> -->
+    </keybind>
     <keybind key="A-Escape">
       <action name="Execute"><command>false</command></action>
     </keybind>
@@ -289,9 +289,9 @@
     <keybind key="C-F4">
       <action name="Execute"><command>false</command></action>
     </keybind>
-    <keybind key="C-S-w">
+    <!-- <keybind key="C-S-w">
       <action name="Execute"><command>false</command></action>
-    </keybind>
+    </keybind> -->
     <keybind key="C-S-o">
       <action name="Execute"><command>false</command></action>
     </keybind>
